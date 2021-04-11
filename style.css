@@ -1,0 +1,43 @@
+.img1{
+  width: 300px;
+  height: 250px;
+  justify-content: left;
+}
+.img2{
+  width: 85px;
+  height: 70px;
+  } 
+
+
+.container{
+  background-color:rgb(233, 233, 250);
+}
+
+
+body {
+  background-color: rgb(185, 185, 245);
+  font-family: cursive;
+  color: rgba(46, 9, 61, 0.836);
+}
+.btn {
+  background-color: rgb(48, 148, 230);
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: rgba(156, 226, 223, 0.664);
+}
+.blue {
+  background: #ccffff;
+}
+.title{
+  color: whitesmoke;
+  font-weight: bolder;
+}
+
+
+.title1{
+  color: rgba(46, 9, 61, 0.836);
+  font-weight: bolder;
+}
