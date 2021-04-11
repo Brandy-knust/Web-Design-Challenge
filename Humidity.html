@@ -6,3 +6,48 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
+
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand btn" href="index.html">Home</a>
+   
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="Temperature.html">Max Temperature</a>
+              <a class="dropdown-item" href="Humidity.html">Humidity</a>
+              <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a>
+            </div>
+        </li>
+    </nav>
+        
+    <div class="title1">
+        <h1>Summary: Lattitude vs. Humidity</h1>
+    </div>
+    <div class="title2">
+        <h4>Relating the Humidity to the Distance from the Equator</h4> 
+    </div>
+    <div class="container">
+        <div class="col-md-6">
+            <img src="Resources/assets/images/Fig2.png" align="left" width="90%">
+        </div>
+        <div class="col-md-12">
+            <h5><p>
+                This graph shows that the humidity and lattitude of each city that was analyzed. Since humidity typically deals with one of two things, how close you are to the coast or what your daily weather is, more than lattitude, this variabilty is not surprising.</br>
+            </br>
+                There is a slight relationship with humidity and lattitude in the areas that are very cold, so futher away from the equator in the Northern Hemisphere (since that was where it was winter when the data was pulled), because cold air is not capable of holding as much moisture, but that is only a small amount of this data. For a majority of this graph, little correlation is shown, because if you are far inland, you have less humidity and vice versa. 
+            </p></h5>
+        </div>
+    </div>  
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
