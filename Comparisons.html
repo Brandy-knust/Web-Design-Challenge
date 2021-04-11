@@ -12,20 +12,34 @@
 <body>
     <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand btn" href="index.html">Home</a>
-   
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Plots
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="Temperature.html">Max Temperature</a>
-              <a class="dropdown-item" href="Humidity.html">Humidity</a>
-              <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
-              <a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a>
-            </div>
-        </li>
-    </nav>
+        
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button> -->
 
+        <div class="collapse navbar-collapse"
+        id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Comparisons.html">Comparisons</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="Temperature.html">Max Temperature</a>
+                      <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                      <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                      <a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="title3">
         <h1>Comparisons: X vs Latitude</h1>
     </div>
@@ -39,6 +53,8 @@
             <a class="image-link" href="Temperature.html">
                 <img src="Resources/assets/images/Fig1.png" width="90%">
             </a>
+        </div>
+        <div class="col-md-6 col-sm-6">
             <a class="image-link" href="Humidity.html">
                 <img src="Resources/assets/images/Fig2.png" width="90%">
             </a>
@@ -49,6 +65,8 @@
             <a class="image-link" href="Cloudiness.html">
                 <img src="Resources/assets/images/Fig3.png" width="90%">
             </a>
+        </div>
+        <div class="col-md-6 col-sm-6">
             <a class="image-link" href="Wind_Speed.html">
                 <img src="Resources/assets/images/Fig4.png" width="90%">
             </a>

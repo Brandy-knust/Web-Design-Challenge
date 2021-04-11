@@ -26,6 +26,17 @@ body {
   background-color: rgba(156, 226, 223, 0.664);
   color: rgb(15, 15, 88);
 }
+/* .navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+} */
+.topnav-right {
+  float: right;
+}
 .blue {
   background: #ccffff;
 }
