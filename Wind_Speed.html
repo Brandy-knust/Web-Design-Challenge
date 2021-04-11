@@ -6,3 +6,51 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
+
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand btn" href="index.html">Home</a>
+   
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="Temperature.html">Max Temperature</a>
+              <a class="dropdown-item" href="Humidity.html">Humidity</a>
+              <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a>
+            </div>
+        </li>
+    </nav>
+
+    <div class="title1">
+        <h1>Summary: Wind Speed vs. Latitude</h1>
+    </div>
+    <div class="title2">
+    <h4>
+        Relating the Wind Speed to the Distance from the Equator
+    </h4>
+    </div>
+    <div class="container">
+        <div class="col-md-6">
+            <img src="Resources/assets/images/Fig4.png" align="left" width="90%">
+        </div>
+        <div class="col-md-12">
+            <h5><p>
+                This plot shows wind speeds as it correlates to latitude. While there are some interesting standouts, this will not show the typical correlation most people will look for. Winds tend to be stronger along certain latitude lines, but since they are also a factor of day to day weather, they do not tend to stand out the way people look for them.
+                You can see some groupings and some higher winds along those latitude lines where the winds are usually stronger, such as between the 35 and 55 degree lines, and lighter winds near the equator, but so many other factors are at play it is hard to really tell what is going on.</br>
+            </br>
+                You can also see some stronger winds closer to the north pole. During the winter, cold dense air tends to rush towards the equator to replace the slowly rising warm air there. This can account for some of those higher wind speeds that are seen near those high latitude lines.  
+            </p></h5>
+        </div>
+    </div>  
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
