@@ -20,6 +20,15 @@ body {
   background-color: rgb(48, 148, 230);
   color: whitesmoke;
   font-weight: bold;
+  
+}
+
+.nav {
+  padding-right: 30px;
+}
+
+.navbar-collapse{
+  margin-right: 30px;
 }
 
 .navbar {
@@ -34,7 +43,7 @@ body {
   text-decoration: none;
   font-size: 17px;
 } */
-.topnav-right {
+.navbar-right {
   float: right;
 }
 .blue {
