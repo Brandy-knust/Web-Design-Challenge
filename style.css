@@ -23,6 +23,11 @@ body {
   font: medium;
   font-weight: 550;
 }
+
+@media only screen and (max-width: 767px) {
+  navbar{background-color: rgb(7, 16, 145);
+    color: azure;}
+}
 .btn {
   background-color: rgb(94, 177, 245);
   color: rgb(245, 245, 245);
