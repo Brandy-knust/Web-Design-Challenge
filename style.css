@@ -4,9 +4,11 @@ img{
 
 .navbar {
   background-color: rgba(44, 89, 185, 0.733);
-  color: rgb(8, 8, 49);
+  color: rgb(8, 8, 53);
 } 
-
+.nav-link{
+  color: rgb(8,8,53);
+}
 .container{
   background-color:rgba(120, 193, 253, 0.671);
   padding: 24px;
