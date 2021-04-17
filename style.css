@@ -78,7 +78,7 @@ body {
 .p{
   text-size-adjust: large;
 }
-.dataframe{
+.table-responsive{
   border-style: groove;
   justify-content: space-around;
   }
